@@ -32,6 +32,7 @@ def calculator_2(inputs):
             num2 = float(equation[2])
         except:
             return "please follow formatting guidelines"
+            
 
     elif len(equation) == 2:
         try:
@@ -40,13 +41,13 @@ def calculator_2(inputs):
         except:
             return "please follow formatting guidelines"
 
-    else:
+    elif:
         return "please follow fornatting guidelines"
+
+    else:
 
 
     if operator == '+':
-        if len(equation) == 2:
-            return "please follow formatting guidelines"
         return add(num1, num2)
 
     elif operator == '-':
